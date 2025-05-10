@@ -40,7 +40,7 @@ export default function Home() {
               <strong className="font-semibold">Email:</strong> info@dec17impex.com
             </p>
             <p>
-              <strong className="font-semibold">Phone:</strong> +91 81419 5344
+              <strong className="font-semibold">Phone:</strong> +91 81419 25344
             </p>
           </div>
         </div>
