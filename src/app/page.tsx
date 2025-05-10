@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Home() {
   return (
     <div
@@ -14,7 +16,7 @@ export default function Home() {
         {/* Left side: Text content */}
         <div className="flex-1 p-10" style={{ color: 'var(--primary)' }}>
           <div className="mb-6">
-            <img
+            <Image
               src="/dec17_logo.png"
               alt="DEC17 IMPEX Logo"
               className="mx-auto md:mx-0 w-40 h-40"
@@ -48,7 +50,7 @@ export default function Home() {
           className="flex-1 hidden md:block"
           style={{ backgroundColor: 'var(--background)' }}
         >
-          <img
+          <Image 
             src="under_construction.svg"
             alt="Under Construction Illustration"
             className="w-full h-full object-contain p-6"
